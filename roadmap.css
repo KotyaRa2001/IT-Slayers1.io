@@ -1,0 +1,45 @@
+.Map
+{
+    width: 80pv;
+    height: 80pv;
+}
+.Left
+{
+  margin-left: 320px;
+    width: 600px;
+}
+.Right
+{
+    width: 100%;
+    margin-left: 36%;
+    float: left;
+}
+.click-zoom input[type=checkbox] {
+    display: none
+  }
+  
+  .click-zoom img {
+    transition: transform 1.25s ease;
+    cursor: zoom-in
+  }
+  
+  .click-zoom input[type=checkbox]:checked~img {
+    transform: translate(500px, 500px) scale(3);
+    cursor: zoom-out
+  }
+ .black
+ {
+     background-color: black;
+ }
+ .status
+ {
+   
+    width: 68%;
+    float: left;
+ }
+ .statusA
+ {
+  
+  width: 32%;
+  float: right;
+ }
